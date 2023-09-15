@@ -10,9 +10,10 @@ Comando: SSH bandit12@bandit.labs.overthewire.org -p 2220
 ```
 ## Solución 
 
-
-
-
+bandit12@bandit:~$
+bandit12@bandit:~$ xxd -r data.txt | zcat | bzcat | zcat | tar xO | tar xO | bzcat | tar xO | zcat
+The password is wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+bandit12@bandit:~$
 ## Notas adicionales
 -Vaciado hexadecimal - Hex dump
 -Se puede revertir ese proceso antes de que se le aplicara el vacío hexadecimal y se hace con el comando:
